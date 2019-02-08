@@ -1,0 +1,32 @@
+union(){
+    difference(){
+        translate([6,6,0]){
+            minkowski(){
+                cube([48,42,1]);
+                cylinder(r=6,h=18);
+            }
+        }
+        translate([8,8,1]){
+            minkowski(){
+                cube([44,38,2]);
+                cylinder(r=6,h=16);
+            }
+        }
+        translate([12,11,0]){
+            cube([38,32,3]);
+        }
+    }
+    translate([5,11,1]){
+        cylinder(r=1,h=5);
+    }
+    translate([5,43,1]){
+        cylinder(r=1,h=5);
+    }
+    translate([55,11,1]){
+        cylinder(r=1,h=5);
+    }
+    translate([55,43,1]){
+        cylinder(r=1,h=5);
+    }
+}
+       
