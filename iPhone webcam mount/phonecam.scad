@@ -1,0 +1,24 @@
+difference(){
+    union(){
+        cylinder(30,21,21);
+        translate([-10,0,0]){
+            cube([20,110,30]);
+        }
+        translate([-40.5,110,0]){
+            cube([81,13,80]);
+        }
+    }
+    cylinder(30,18.5,18.5);
+    translate([-8,21,0]){
+        cube([16,87,30]);
+    }
+    translate([-38.5,112,2]){
+       cube([77,9,80]);
+    }
+    translate([-33.5,120,7]){
+        cube([67,10,80]);
+    }
+    translate([-23.5,112,0]){
+        cube([47,9,2]);
+    }
+}
